@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Pizzeria IIC2513</title>
+    <script src="./pizzeria.js" async></script>
+    <link rel="stylesheet" type="text/css" href="./style.css">
+</head>
+
+<body>
+    <div class="content">
+        <h1>Pizza Time!</h1>
+        <div class="container">
+            <div class="form-container">
+                <form id="pizza-form">
+                    <fieldset class="checkboxes">
+                        <legend>Ingredientes base</legend>
+                        <div>
+                            <div>
+                                <input type="checkbox" id="sauceCheck" name="sauceCheck" checked />
+                                <label for="sauceCheck">Agregar salsa</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" id="cheeseCheck" name="cheeseCheck" checked />
+                                <label for="cheeseCheck">Agregar queso</label>
+                            </div>
+                        </div>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Ingredientes adicionales</legend>
+                        <div class="numbers">
+                            <div>
+                                <label for="pepperoniCount">Número de pepperonis</label>
+                                <input id="pepperoniCount" type="number" name="pepperoniCount" value="0" min="0" />
+                            </div>
+                            <div>
+                                <label for="basilCount">Número de hojas de albahaca</label>
+                                <input id="basilCount" type="number" name="basilCount" value="0" min="0" />
+                            </div>
+                            <div>
+                                <label for="mushroomCount">Número de champiñones</label>
+                                <input id="mushroomCount" type="number" name="mushroomCount" value="0" min="0" />
+                            </div>
+                        </div>
+                    </fieldset>
+                    <div class="action">
+                        <input type="submit" value="Comprar pizza!" />
+                    </div>
+                </form>
+            </div>
+            <div class="pizza-container">
+                <div id="pizza" class="pizza">
+                    <div id="crust" class="crust"></div>
+                    <div id="sauce"></div>
+                    <div id="cheese"></div>
+                    <div id="pepperoni"></div>
+                    <div id="basil"></div>
+                    <div id="mushroom"></div>
+                </div>
+            </div>
+        </div>
+        <div id="order-summary">
+        </div>
+        <img class="pizza-time" src="https://media.tenor.com/t7RVYOdUvmYAAAAd/spider-man2-spider-man.gif" alt="Pizza GIF">
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,229 @@
+/*
+Custom CSS for content display
+*/
+
+html {
+  font-family: Verdana, Helvetica, sans-serif;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 20px;
+}
+
+form * {
+  margin: 5px;
+}
+
+form fieldset > div {
+  border: 1px solid black;
+  border-radius: 10px;
+  border-style: dotted;
+}
+
+form .checkboxes > div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+form .numbers > div {
+  display: table-row;
+}
+
+form .numbers label {
+  display: table-cell;
+  padding: 0 10px;
+}
+
+form .numbers input {
+  display: table-cell;
+}
+
+form .action {
+  width: 100%;
+  border: none;
+}
+
+form .action input[type="submit"] {
+  margin: 0 auto;
+  display: block;
+  padding: 5px 15px;
+  cursor: pointer;
+}
+
+.pizza-time {
+  width: 25%;
+}
+
+/*
+Custom CSS for pizza design
+*/
+
+.pizza {
+  width: 300px;
+  height: 300px;
+  background-color: #f5deb3;
+  border-radius: 50%;
+  position: relative;
+  margin: 50px auto;
+}
+.crust {
+  width: 100%;
+  height: 100%;
+  border: 10px solid #a0522d;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.sauce {
+  width: 100%;
+  height: 100%;
+  background-color: #ff0000;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.cheese {
+  width: 90%;
+  height: 90%;
+  background-color: #ffd700;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.pepperoni {
+  width: 15%;
+  height: 15%;
+  background-color: #cc0000;
+  border-radius: 50%;
+  position: absolute;
+  top: 25%;
+  left: 25%;
+  transform: translate(-50%, -50%);
+  border: 2px solid #000;
+  border-color: #8b0000;
+}
+.pepperoni:nth-of-type(1) {
+  top: 30%;
+  left: 25%;
+}
+.pepperoni:nth-of-type(2) {
+  top: 25%;
+  left: 60%;
+}
+.pepperoni:nth-of-type(3) {
+  top: 70%;
+  left: 75%;
+}
+.pepperoni:nth-of-type(4) {
+  top: 80%;
+  left: 35%;
+}
+.pepperoni:nth-of-type(5) {
+  top: 40%;
+  left: 55%;
+}
+.pepperoni:nth-of-type(6) {
+  top: 60%;
+  left: 45%;
+}
+.basil {
+  width: 5%;
+  height: 8%;
+  background-color: #00a600;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(-45deg);
+  border-radius: 50% 50% 0 50%;
+  transform-origin: bottom center;
+  box-shadow: 0 0 0 2px #004d00;
+}
+.basil:nth-of-type(1) {
+  top: 50%;
+  left: 35%;
+  transform: translate(-50%, -50%) rotate(-75deg);
+}
+.basil:nth-of-type(2) {
+  top: 65%;
+  left: 30%;
+  transform: translate(-50%, -50%) rotate(-17deg);
+}
+.basil:nth-of-type(3) {
+  top: 20%;
+  left: 55%;
+  transform: translate(-50%, -50%) rotate(-78deg);
+}
+.basil:nth-of-type(4) {
+  top: 40%;
+  left: 65%;
+  transform: translate(-50%, -50%) rotate(-12deg);
+}
+.basil:nth-of-type(5) {
+  top: 50%;
+  left: 75%;
+  transform: translate(-50%, -50%) rotate(-32deg);
+}
+.basil:nth-of-type(6) {
+  top: 80%;
+  left: 75%;
+  transform: translate(-50%, -50%) rotate(-22deg);
+}
+.mushroom {
+  width: 3%;
+  height: 8%;
+  background-color: #f2f2f2;
+  position: absolute;
+  top: 55%;
+  left: 55%;
+  transform: translate(-50%, -50%);
+  border-radius: 50% 50% 20% 20%;
+  box-shadow: 0 0 0 3px #a9a9a9;
+}
+.mushroom:nth-of-type(1) {
+  top: 30%;
+  left: 25%;
+  transform: translate(-50%, -50%) rotate(-75deg);
+}
+.mushroom:nth-of-type(2) {
+  top: 45%;
+  left: 40%;
+  transform: translate(-50%, -50%) rotate(-17deg);
+}
+.mushroom:nth-of-type(3) {
+  top: 70%;
+  left: 65%;
+  transform: translate(-50%, -50%) rotate(-78deg);
+}
+.mushroom:nth-of-type(4) {
+  top: 60%;
+  left: 80%;
+  transform: translate(-50%, -50%) rotate(-12deg);
+}
+.mushroom:nth-of-type(5) {
+  top: 70%;
+  left: 55%;
+  transform: translate(-50%, -50%) rotate(-32deg);
+}
+.mushroom:nth-of-type(6) {
+  top: 40%;
+  left: 25%;
+  transform: translate(-50%, -50%) rotate(-22deg);
+}
