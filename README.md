@@ -21,3 +21,6 @@ La salida de esta función aparecerá en la consola, para debuggear más fácilm
 Escribir una funcion `displayInvoice` para mostrar un resumen de los ingredientes elegidos y que incluya el precio total (utilizar función `calculatePrice`). Se recomienda agregar elementos HTML apropiados en el DIV con id "order-summary". Por ejemplo, se pueden usar tags LI dentro de un tag UL para cada ingrediente junto con su cantidad, y mostrar un tag P que contenga el precio.
 
 En esta función se deberán usar métodos como `document.getElementById`, `document.createElement`, `document.createTextNode` y `elem.appendChild`. Esta función no debe retornar ningún tipo de valor.
+
+## Requisitos
+Los requisitos para obtener el puntaje completo en esta actividad se encuentran detallados en el enunciado disponible en canvas.
