@@ -17,7 +17,7 @@ function calculatePrice({
 
     1. El precio base de la pizza es 5
     2. Cada pepperoni vale 0.5, cada albahaca vale 0.3 y cada champiñon vale 0.1
-    3. Si lleva salsa se suma 1, si lleva queso se suma 1.5
+    3. Si lleva salsa se suma 1, si lleva queso se suma 1.5 
   */
   // La salida de esta función aparecerá en consola (para debuggear)
   // if / else if / else
