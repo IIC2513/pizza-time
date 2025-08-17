@@ -1,4 +1,4 @@
-# Pizza time - Actividad propuesta sobre JS
+# Pizza time - Actividad JS y HTML
 
 ## Código
 
