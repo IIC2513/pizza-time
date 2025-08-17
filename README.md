@@ -4,7 +4,7 @@
 
 Puedes utilizar [este pen](https://codepen.io/aaossa/pen/MWRmWXK) y guardarlo en tu perfil haciendo un "fork". Alternativamente, el mismo código fuente está disponible en este repositorio.
 
-## Actividad
+## Actividad 
 
 ### Parte 1 - Calcular precio con `calculatePrice`
 
